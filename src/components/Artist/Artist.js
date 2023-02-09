@@ -4,7 +4,7 @@ import "./Artist.scss"
 
 const Artist = () => {
   return (
-    <section className="artistContainer">
+    <section className="section artistContainer">
       <div className="left">
         <h1 className="title">MEET THE ARTIST</h1>
         <p className="content">
@@ -32,7 +32,6 @@ const Artist = () => {
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt=""
-          style={{ marginBottom: `var(--space-3)` }}
         />
       </div>
     </section>

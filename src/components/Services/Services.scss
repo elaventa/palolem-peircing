@@ -1,0 +1,31 @@
+.servicesContainer{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.59);
+    color: #fff;
+    height: 100%;
+  
+    .image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+    }
+    .title{
+        text-align: center;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 100px;
+        margin: 50px 0;
+        @media(max-width: 1200px){
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+        @media(max-width: 900px){
+            grid-template-columns: 1fr;
+            gap: 50px;
+        }
+    }
+}
