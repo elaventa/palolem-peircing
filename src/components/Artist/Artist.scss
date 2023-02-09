@@ -1,0 +1,27 @@
+.artistContainer{
+    background-color: #222;
+    color: #fff;
+    padding: 100px 150px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 80px;
+    .left{
+        .title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 30px;
+            letter-spacing: 3px;
+        }
+        .content{
+            font-family: 'Magdelin';
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }   
+
+    }
+
+    .right{
+        justify-self: end;
+    }
+}
