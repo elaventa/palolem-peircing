@@ -1,0 +1,14 @@
+.top{
+    padding: 5px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+
+    .right, .left{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
