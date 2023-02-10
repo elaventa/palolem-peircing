@@ -1,0 +1,57 @@
+.reachUsContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    @media(max-width: 1200px){
+        grid-template-columns: 1fr;
+    }
+    .left{
+        border-right: 1px solid #000;
+        height: fit-content;
+        align-self: center;
+        @media(max-width: 1200px){
+            border-right: none;
+        }
+        .row{
+            margin: 50px 0;
+
+            .subtitle{
+                margin-bottom: 15px;
+            }
+
+            .social{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+            }
+        }
+
+    }
+
+    .right{
+        width: 40vw;
+        justify-self: center;
+        @media(max-width: 1200px){
+            width: 70%;
+            justify-self: start;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 50px 0;
+            
+            input, textarea{
+                background: #EFEFEF;
+                border-radius: 6px;
+                border: none;
+                padding: 10px 30px;
+
+            }
+            input[type="submit"] {
+                background-color: #000;
+                color: #fff;
+                width: fit-content;
+            }
+        }
+    }
+}
