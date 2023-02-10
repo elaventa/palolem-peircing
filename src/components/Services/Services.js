@@ -4,7 +4,7 @@ import "./Services.scss"
 
 const Services = () => {
   return (
-    <section className="section servicesContainer">
+    <section id="services" className="section servicesContainer">
       <StaticImage
         src="../../images/services.png"
         loading="eager"

@@ -1,8 +1,38 @@
 .reachUsContainer{
+    position: relative;
     display: grid;
+    z-index: -2;
     grid-template-columns: 1fr 3fr;
     @media(max-width: 1200px){
         grid-template-columns: 1fr;
+    }
+
+    .icon1{
+        position: absolute;
+        left: -120px;
+        top: -120px;
+        z-index: -1;
+
+       
+    }
+
+    .icon2{
+        position: absolute;
+        bottom: -120px;
+        left: 120px;
+        z-index: -1;
+        @media(max-width: 1000px){
+            display: none;
+        }
+    }
+    .icon3{
+        position: absolute;
+        right: 120px;
+        top: 50%;
+        z-index: -1;
+        @media(max-width: 1000px){
+            display: none;
+        }
     }
     .left{
         border-right: 1px solid #000;

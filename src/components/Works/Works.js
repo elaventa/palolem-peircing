@@ -4,7 +4,7 @@ import "./Works.scss"
 
 const Works = () => {
   return (
-    <section className="section worksContainer">
+    <section id="gallery" className="section worksContainer">
       <h1 className="title">OUR LATEST WORK</h1>
       <div className="works">
         <StaticImage

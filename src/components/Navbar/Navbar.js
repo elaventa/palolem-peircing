@@ -23,31 +23,31 @@ const Navbar = () => {
       </div>
 
       <ul className={`navItems ${clicked}`}>
-        <Link to="#">
+        <Link to="#home">
           <li className="navItem" onClick={() => setclicked(false)}>
             Home
           </li>
         </Link>
 
-        <Link to="#">
+        <Link to="#about">
           <li className="navItem" onClick={() => setclicked(false)}>
             About
           </li>
         </Link>
 
-        <Link to="#">
+        <Link to="#services">
           <li className="navItem" onClick={() => setclicked(false)}>
             Services
           </li>
         </Link>
 
-        <Link to="#">
+        <Link to="#gallery">
           <li className="navItem" onClick={() => setclicked(false)}>
             Gallery
           </li>
         </Link>
 
-        <Link to="#">
+        <Link to="#contact">
           <li className="navItem" onClick={() => setclicked(false)}>
             Contact
           </li>

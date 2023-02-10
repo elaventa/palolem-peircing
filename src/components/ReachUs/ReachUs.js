@@ -1,10 +1,32 @@
+import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import { ImFacebook, ImInstagram, ImLink, ImTwitter } from "react-icons/im"
 import "./ReachUs.scss"
 
+const Icon = () => {
+  return <StaticImage
+  src="../../images/icon.png"
+  loading="eager"
+  width={400}
+  quality={95}
+  formats={["auto", "webp", "avif"]}
+  alt="palolem piercing logo"
+/>
+}
+
 const ReachUs = () => {
   return (
-    <section className="section reachUsContainer">
+    <section id="contact" className="section reachUsContainer">
+    <div className="icon1">
+      <Icon />
+    </div>
+    <div className="icon2">
+      <Icon />
+    </div>
+    <div className="icon3">
+      <Icon />
+    </div>
+       
       <div className="left">
         <div className="row">
           <h2 className="subtitle">Email</h2>
