@@ -4,6 +4,7 @@ import Book from '../components/Book/Book'
 import Hero from '../components/Hero/Hero'
 import Navbar from '../components/Navbar/Navbar'
 import ReachUs from '../components/ReachUs/ReachUs'
+import Reviews from '../components/Reviews/Reviews'
 import Services from '../components/Services/Services'
 import TopInfo from '../components/TopInfo/TopInfo'
 import Works from '../components/Works/Works'
@@ -19,6 +20,7 @@ const Index = () => {
         <Services />
         <Works />
         <Book />
+        <Reviews />
         <ReachUs />
     </div>
   )
