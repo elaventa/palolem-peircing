@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Piercing Shop in Palolem, Goa | Professional Piercing Services`,
+    description: `Find the perfect piercing at our trendy and professional piercing shop in Palolem, Goa. Our expert piercers use state-of-the-art techniques and top-quality jewelry to ensure your comfort and satisfaction. Book your appointment today.`,
+    author: `@perple`,
+    siteUrl: `https://palolempiercingshop.com/`,
   },
   plugins: [
     `gatsby-plugin-sass`,

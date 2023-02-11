@@ -23,14 +23,14 @@ function Seo({ description, title, children }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = "Experience professional piercing services in a clean and welcoming environment at our shop in Palolem, Goa. Our experienced piercers use only the highest quality jewelry to ensure your comfort and satisfaction. Book your appointment today."
   const defaultTitle = site.siteMetadata?.title
 
   return (
     <>
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
-      <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
+      <title>{defaultTitle}</title>
+      <meta name="description" content={site.siteMetadata?.description} />
+      <meta property="og:title" content="Get Your Next Piercing at Our Shop in Palolem, Goa" />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />

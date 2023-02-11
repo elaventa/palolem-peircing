@@ -25,17 +25,17 @@ const Reviews = () => {
       </div>
       <div className="right">
         <div className="review">
-            <p className="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam obcaecati doloribus vero, nisi eum adipisci! Laudantium, repellat. Ducimus repellendus excepturi omnis perspiciatis vel nisi optio. Dignissimos esse beatae modi delectus.</p>
+            <p className="content">I recently got my first piercing at this shop and I couldn't be happier with my experience! The staff were friendly and knowledgeable, and they made sure I was comfortable throughout the entire process. The shop was clean and well-maintained, and I appreciated their commitment to hygiene and safety. I would highly recommend this shop to anyone looking for a great piercing experience.</p>
             <h3 className="name">Rahul T</h3>
         </div>
 
         <div className="review">
-            <p className="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam obcaecati doloribus vero, nisi eum adipisci! Laudantium, repellat. Ducimus repellendus excepturi omnis perspiciatis vel nisi optio. Dignissimos esse beatae modi delectus.</p>
+            <p className="content">I've been going to this piercing shop for years and I've always been extremely satisfied with their services. The piercers are professional and skilled, and they always take the time to explain the piercing process and aftercare instructions. I appreciate the high-quality jewelry they use and the wide selection they offer. Overall, this is a great place to get pierced and I would recommend it to anyone.</p>
             <h3 className="name">Surya V R</h3>
         </div>
 
         <div className="review">
-            <p className="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam obcaecati doloribus vero, nisi eum adipisci! Laudantium, repellat. Ducimus repellendus excepturi omnis perspiciatis vel nisi optio. Dignissimos esse beatae modi delectus.</p>
+            <p className="content">I recently had my belly button pierced at this shop and I'm absolutely in love with my new piercing! The staff were friendly and welcoming, and they made sure I was comfortable throughout the process. The shop was clean and the equipment was well-maintained. I was impressed with their attention to detail and commitment to providing the best possible experience. I would definitely recommend this shop to anyone looking for a great piercing experience.</p>
             <h3 className="name">Surya V R</h3>
         </div>
        
