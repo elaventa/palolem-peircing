@@ -34,6 +34,12 @@
             font-weight: 400;
             background-color: transparent;
             color: #fff;
+            transition: all .6s ease-in-out;
+
+            &:hover{
+                background-color: #fff;
+                color: #000;
+            }
         }
 
     }

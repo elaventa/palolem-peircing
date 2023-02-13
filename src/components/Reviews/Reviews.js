@@ -26,7 +26,7 @@ const Reviews = () => {
       <div className="right">
         <div className="review">
             <p className="content">I recently got my first piercing at this shop and I couldn't be happier with my experience! The staff were friendly and knowledgeable, and they made sure I was comfortable throughout the entire process. The shop was clean and well-maintained, and I appreciated their commitment to hygiene and safety. I would highly recommend this shop to anyone looking for a great piercing experience.</p>
-            <h3 className="name">Rahul T</h3>
+            <h3 className="name">Jennifer Harris</h3>
         </div>
 
         <div className="review">
@@ -36,7 +36,7 @@ const Reviews = () => {
 
         <div className="review">
             <p className="content">I recently had my belly button pierced at this shop and I'm absolutely in love with my new piercing! The staff were friendly and welcoming, and they made sure I was comfortable throughout the process. The shop was clean and the equipment was well-maintained. I was impressed with their attention to detail and commitment to providing the best possible experience. I would definitely recommend this shop to anyone looking for a great piercing experience.</p>
-            <h3 className="name">Aparna</h3>
+            <h3 className="name">Karen Shook</h3>
         </div>
        
       </div>
