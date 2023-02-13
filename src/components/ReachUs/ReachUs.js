@@ -2,6 +2,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import SocialIcons from "../SocialIcons/SocialIcons"
 import "./ReachUs.scss"
+import { useForm, ValidationError } from "@formspree/react"
 
 const Icon = () => {
   return (
@@ -17,6 +18,10 @@ const Icon = () => {
 }
 
 const ReachUs = () => {
+  const [state, handleSubmit] = useForm("mnqyplkq")
+  if (state.succeeded) {
+    return <p>Thanks for Contacting Us!</p>
+  }
   return (
     <section id="contact" className="section reachUsContainer">
       <div className="icon1">
@@ -32,12 +37,12 @@ const ReachUs = () => {
       <div className="left">
         <div className="row">
           <h2 className="subtitle">Email</h2>
-          <a href="mailto:contact@piercings.com">contact@piercings.com</a>
+          <a href="mailto:pravinkhavadiya@gmail.com">pravinkhavadiya@gmail.com</a>
         </div>
 
         <div className="row">
           <h2 className="subtitle">Phone</h2>
-          <a href="tel:+9747406685">+91 9747406685</a>
+          <a href="tel:+919921209571">+91 99212 09571</a>
         </div>
 
         <div className="row">
@@ -53,16 +58,23 @@ const ReachUs = () => {
           the support you need.
         </p>
 
-        <form action="https://formspree.io/f/mnqyplkq" method="POST">
+        <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Name" name="name" />
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
           <input type="email" placeholder="Email" name="email" />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
           <textarea
             cols="30"
             rows="10"
             placeholder="Enter your message"
             name="message"
           ></textarea>
-          <input type="submit" value="Submit" />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <input type="submit" value="Submit" disabled={state.submitting} />
         </form>
       </div>
     </section>
