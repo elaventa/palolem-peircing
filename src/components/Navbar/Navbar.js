@@ -15,7 +15,7 @@ const Navbar = () => {
         <StaticImage
           src="../../images/logo.png"
           loading="eager"
-          width={120}
+          width={220}
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="palolem piercing logo"

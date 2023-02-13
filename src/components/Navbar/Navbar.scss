@@ -1,8 +1,9 @@
 .nav{
     padding: 0px 100px;
     background-color:#0B0B0B;
-    height: 5vh;
     display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +12,7 @@
     top: 0;
     z-index: 99;
     @media(max-width: 600px){
-        padding: 0 50px;
+        padding: 5px 20px;
     }
     .navItems{
         list-style: none;
