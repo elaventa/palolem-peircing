@@ -1,0 +1,28 @@
+.footer{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    justify-content:space-between;
+    color:white;
+    background-color:black;
+    div{
+        flex-grow: 1;
+        flex: 1 1 0px;
+        list-style:none;
+        text-decoration:none;
+        h1{
+            font-weight:600;
+            size:22px;
+            line-height:33px;
+            padding-bottom:20px;
+        }
+       
+    }
+}
+p{
+    font-weight:400;
+        size:18px;
+        line-height:27px;
+    text-align:center;
+
+}

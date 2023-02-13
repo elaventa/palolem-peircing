@@ -9,6 +9,7 @@ import Seo from '../components/seo'
 import Services from '../components/Services/Services'
 import TopInfo from '../components/TopInfo/TopInfo'
 import Works from '../components/Works/Works'
+import Footer from '../components/Footer/Footer'
 import "../styles/global.scss"
 
 const Index = () => {
@@ -23,6 +24,7 @@ const Index = () => {
         <Book />
         <Reviews />
         <ReachUs />
+        <Footer/>
     </div>
   )
 }
