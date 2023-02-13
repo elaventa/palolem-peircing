@@ -17,32 +17,31 @@ const Footer = () => {
           />
         </div>
 
-        <div className="category">
-          <h1>ARTIST PORTFOLIO</h1>
-          <li>Rutik KavdIiya </li>
-          <br />
-          <h1>CATEGORIES</h1>
-          <li> Septum Piercing</li>
-          <li> Nose Peircing</li>
-          <li> Belly Peircing</li>
-        </div>
-        <div>
-          <h1>IMPORTANT LINKS</h1>
-          <li> PeirIcing after care</li>
-          <li> Blog</li>
-          <li> Privacy Policy</li>
-          <li> Terms & Conditions</li>
-        </div>
-        <div>
-          <p>
-            {" "}
-            PIERCING STUDIO PVT LTD34/265, Anand Nagar,Vakola, Santacruz
-            East,Mumbai 400055Maharashtra , India <br />
-            <br />
-            +91 85913 36124 <br />
-            contact@piercings.com
-          </p>
-        </div>
+    
+
+      <div className="category">
+        <h1>ARTIST PORTFOLIO</h1>
+        <li>Rutik KavdIiya </li><br/>
+        <h1>CATEGORIES</h1>
+        <li> Septum Piercing</li>
+        <li> Nose Peircing</li>
+        <li> Belly Peircing</li>
+      </div>
+      <div>
+        <h1>IMPORTANT LINKS</h1>
+        <li> PeirIcing after care</li>
+        <li> Blog</li>
+        <li> Privacy Policy</li>
+        <li> Terms & Conditions</li>
+      </div>
+      <div>
+        <p> Palolem Main Street, Next to The Sun N Moon Wine Shop, Canacona, 403702, Goa, India <br />
+        <br />
+          +91 99212 09571 <br />
+          palolempiercingshop@gmail.com</p>
+        
+      </div>
+        
       </section>
       <p>2023 All Rights Reserved. Palolem Piercing Shop Pvt Ltd.</p>
     </div>
