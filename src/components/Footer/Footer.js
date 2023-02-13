@@ -21,18 +21,18 @@ const Footer = () => {
 
       <div className="category">
         <h1>ARTIST PORTFOLIO</h1>
-        <li>Rutik KavdIiya </li><br/>
+       <a href=""> <li>Rutik KavdIiya </li><br/></a>
         <h1>CATEGORIES</h1>
-        <li> Septum Piercing</li>
-        <li> Nose Peircing</li>
-        <li> Belly Peircing</li>
+        <a href=""> <li> Septum Piercing</li></a>
+        <a href=""> <li> Nose Peircing</li></a>
+        <a href=""> <li> Belly Peircing</li></a>
       </div>
       <div>
         <h1>IMPORTANT LINKS</h1>
-        <li> PeirIcing after care</li>
-        <li> Blog</li>
-        <li> Privacy Policy</li>
-        <li> Terms & Conditions</li>
+        <a href=""><li> PeirIcing after care</li></a>
+        <a href=""> <li> Blog</li></a>
+        <a href=""><li> Privacy Policy</li></a>
+        <a href=""><li> Terms & Conditions</li></a>
       </div>
       <div>
         <p> Palolem Main Street, Next to The Sun N Moon Wine Shop, Canacona, 403702, Goa, India <br />
