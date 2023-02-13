@@ -56,3 +56,24 @@ html{
     font-weight: 200;
 }  
 
+
+
+.pageLoader{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .logo{
+
+    }
+    .title{
+        color: #fff;
+    }
+
+
+}

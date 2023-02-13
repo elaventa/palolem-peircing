@@ -1,6 +1,6 @@
 import React from 'react'
 import "./TopInfo.scss"
-import { ImFacebook, ImInstagram, ImLink, ImTwitter } from "react-icons/im"
+import SocialIcons from '../SocialIcons/SocialIcons'
 
 const TopInfo = () => {
   return (
@@ -10,12 +10,7 @@ const TopInfo = () => {
             <a href="tel:+9747406685">+91 9747406685</a>
         </div>
 
-        <div className="right">
-            <a href=""><ImFacebook /></a>
-            <a href=""><ImInstagram /></a>
-            <a href=""><ImTwitter /></a>
-            <a href=""><ImLink /></a>
-        </div>
+        <SocialIcons />
     </section>
   )
 }
