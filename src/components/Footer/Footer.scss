@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    @media (max-width: 1375px) {
+        flex-direction: column;
+    }
+
+    .imageWrapper{
+        width: 100px !important;
+        .image {
+            width: 100%;
+        }
+    }
+    div {
+        flex-grow: 1;
+        flex: 1 1 0px;
+        list-style: none;
+        text-decoration: none;
+        padding: 10px;
+
+        h1 {
+            font-weight: 600;
+            size: 22px;
+            line-height: 33px;
+            padding-bottom: 20px;
+        }
+        p {
+            text-align: left;
+        }
+    }
+}
+p {
+    font-weight: 400;
+    size: 18px;
+    line-height: 27px;
+    text-align: center;
+}

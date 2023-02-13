@@ -38,9 +38,7 @@
         border-right: 1px solid #000;
         height: fit-content;
         align-self: center;
-        @media(max-width: 1200px){
-            border-right: none;
-        }
+       
         .row{
             margin: 50px 0;
 
