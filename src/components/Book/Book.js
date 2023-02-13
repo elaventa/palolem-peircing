@@ -16,7 +16,7 @@ const Book = () => {
       />
       <h1 className="title">ARE YOU READY TO GET A PIERCING?</h1>
       <p className="content">Request an appointment NOW!</p>
-      <button className="btn">BOOK APPOINTMENT</button>
+     <a href="tel:+919921209571"> <button className="btn">BOOK APPOINTMENT</button></a>
     </section>
   )
 }

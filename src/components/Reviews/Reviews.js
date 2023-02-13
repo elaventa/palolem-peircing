@@ -36,7 +36,7 @@ const Reviews = () => {
 
         <div className="review">
             <p className="content">I recently had my belly button pierced at this shop and I'm absolutely in love with my new piercing! The staff were friendly and welcoming, and they made sure I was comfortable throughout the process. The shop was clean and the equipment was well-maintained. I was impressed with their attention to detail and commitment to providing the best possible experience. I would definitely recommend this shop to anyone looking for a great piercing experience.</p>
-            <h3 className="name">Surya V R</h3>
+            <h3 className="name">Aparna</h3>
         </div>
        
       </div>
