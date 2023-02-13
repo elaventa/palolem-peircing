@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
         
       </section>
-      <p>2023 All Rights Reserved. Palolem Piercing Shop Pvt Ltd.</p>
+      <p className="copyright">2023 All Rights Reserved. Palolem Piercing Shop Pvt Ltd.</p>
     </div>
   )
 }
