@@ -33,6 +33,7 @@ function Seo({ description, title, children }) {
       <meta property="og:title" content="Get Your Next Piercing at Our Shop in Palolem, Goa" />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
+      <meta property="og:image" itemprop="image" content="../images/og-image.png" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
       <meta name="twitter:title" content={title} />
