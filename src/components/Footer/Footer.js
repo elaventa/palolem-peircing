@@ -34,10 +34,10 @@ const Footer = () => {
         <li> Terms & Conditions</li>
       </div>
       <div>
-        <p> PIERCING STUDIO  PVT LTD34/265, Anand Nagar,Vakola, Santacruz East,Mumbai 400055Maharashtra , India <br />
+        <p> Palolem Main Street, Next to The Sun N Moon Wine Shop, Canacona, 403702, Goa, India <br />
         <br />
-          +91 85913 36124 <br />
-          contact@piercings.com</p>
+          +91 99212 09571 <br />
+          palolempiercingshop@gmail.com</p>
         
       </div>
       </section>
