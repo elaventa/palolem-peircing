@@ -15,7 +15,6 @@ const Footer = () => {
         formats={["auto", "webp", "avif"]}
         alt=""
         className="image"
-        // style={{width: '100%'}}
       />
       </div>
 
@@ -42,7 +41,7 @@ const Footer = () => {
         
       </div>
       </section>
-      <p>2023 All Rights Reserved. Palolem Piercing Studio Pvt Ltd.</p>
+      <p>2023 All Rights Reserved. Palolem Piercing Shop Pvt Ltd.</p>
     </div>
   )
 }
