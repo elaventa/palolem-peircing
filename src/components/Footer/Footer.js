@@ -1,22 +1,23 @@
-import { StaticImage } from 'gatsby-plugin-image'
-import React from 'react'
+import { StaticImage } from "gatsby-plugin-image"
+import React from "react"
 import "./Footer.scss"
 
 const Footer = () => {
   return (
     <div>
-    <section className="section footer">
+      <section className="section footer">
+        <div className="imageWrapper">
+          <StaticImage
+            src="../../images/logo.png"
+            loading="eager"
+            quality={95}
+            formats={["auto", "webp", "avif"]}
+            alt=""
+            className="image"
+          />
+        </div>
 
-      <div className="image">
-      <StaticImage
-        src="../../images/logo.png"
-        loading="eager"
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        className="image"
-      />
-      </div>
+    
 
       <div className="category">
         <h1>ARTIST PORTFOLIO</h1>
@@ -40,6 +41,7 @@ const Footer = () => {
           palolempiercingshop@gmail.com</p>
         
       </div>
+        
       </section>
       <p>2023 All Rights Reserved. Palolem Piercing Shop Pvt Ltd.</p>
     </div>

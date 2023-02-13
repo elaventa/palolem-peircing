@@ -1,32 +1,34 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { ImFacebook, ImInstagram, ImLink, ImTwitter } from "react-icons/im"
+import SocialIcons from "../SocialIcons/SocialIcons"
 import "./ReachUs.scss"
 
 const Icon = () => {
-  return <StaticImage
-  src="../../images/icon.png"
-  loading="eager"
-  width={400}
-  quality={95}
-  formats={["auto", "webp", "avif"]}
-  alt="palolem piercing logo"
-/>
+  return (
+    <StaticImage
+      src="../../images/icon.png"
+      loading="eager"
+      width={400}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt="palolem piercing logo"
+    />
+  )
 }
 
 const ReachUs = () => {
   return (
     <section id="contact" className="section reachUsContainer">
-    <div className="icon1">
-      <Icon />
-    </div>
-    <div className="icon2">
-      <Icon />
-    </div>
-    <div className="icon3">
-      <Icon />
-    </div>
-       
+      <div className="icon1">
+        <Icon />
+      </div>
+      <div className="icon2">
+        <Icon />
+      </div>
+      <div className="icon3">
+        <Icon />
+      </div>
+
       <div className="left">
         <div className="row">
           <h2 className="subtitle">Email</h2>
@@ -40,20 +42,7 @@ const ReachUs = () => {
 
         <div className="row">
           <h2 className="subtitle">Social</h2>
-          <div className="social">
-            <a href="">
-              <ImFacebook />
-            </a>
-            <a href="">
-              <ImInstagram />
-            </a>
-            <a href="">
-              <ImTwitter />
-            </a>
-            <a href="">
-              <ImLink />
-            </a>
-          </div>
+          <SocialIcons />
         </div>
       </div>
 
@@ -64,13 +53,14 @@ const ReachUs = () => {
           the support you need.
         </p>
 
-        <form>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
+        <form action="https://formspree.io/f/mnqyplkq" method="POST">
+          <input type="text" placeholder="Name" name="name" />
+          <input type="email" placeholder="Email" name="email" />
           <textarea
             cols="30"
             rows="10"
             placeholder="Enter your message"
+            name="message"
           ></textarea>
           <input type="submit" value="Submit" />
         </form>
