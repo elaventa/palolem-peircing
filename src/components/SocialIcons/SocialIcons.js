@@ -6,17 +6,8 @@ import { BsInstagram } from "react-icons/bs"
 const SocialIcons = () => {
   return (
     <div className="socialIcons">
-      <a href="">
-        <ImFacebook />
-      </a>
-      <a href="">
+      <a href="https://instagram.com/palolem_piercingshop">
         <BsInstagram />
-      </a>
-      <a href="">
-        <ImTwitter />
-      </a>
-      <a href="">
-        <ImLink />
       </a>
     </div>
   )

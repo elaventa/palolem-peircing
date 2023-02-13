@@ -6,8 +6,8 @@ const TopInfo = () => {
   return (
     <section id='home' className='top'>
         <div className="left">
-            <a href="mailto:contact@piercings.com">contact@piercings.com</a>
-            <a href="tel:+9747406685">+91 9747406685</a>
+            <a href="mailto:pravinkhavadiya@gmail.com">pravinkhavadiya@gmail.com</a>
+            <a href="tel:+919921209571">+91 99212 09571</a>
         </div>
 
         <SocialIcons />

@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="heroContent">
         <h1 className="title">EXPERT TATTOOS <br /> AND PIERCINGS</h1>
         <p className="content">Unleash your individuality with precision piercing.</p>
-        <button className="btn">Contact Us</button>
+        <a href="tel:+919921209571"><button className="btn">Contact Us</button></a>
       </div>
 
     </section>
