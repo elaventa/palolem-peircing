@@ -9,10 +9,10 @@
     justify-content: center;
     min-height: 80vh;
     .image{
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
-        z-index: -1;
+        z-index: -999;
         height: 100%;
     }
     .title{

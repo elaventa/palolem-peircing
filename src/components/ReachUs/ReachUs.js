@@ -9,10 +9,10 @@ const Icon = () => {
     <StaticImage
       src="../../images/icon.png"
       loading="eager"
-      width={400}
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="palolem piercing logo"
+      className="img"
     />
   )
 }

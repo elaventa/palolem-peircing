@@ -2,8 +2,17 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    background-color: #fff;
+    z-index: -999;
     @media(max-width: 1200px){
         grid-template-columns: 1fr;
+    }
+
+    .img{
+
+        @media(max-width: 1000px){
+            width: 250px;
+        } 
     }
 
     .icon1{
@@ -21,7 +30,12 @@
         left: 120px;
         z-index: -1;
         @media(max-width: 1000px){
-            display: none;
+            left: 320px;
+            top: 220px;
+
+            .img{
+                width: 150px;
+            }
         }
     }
     .icon3{

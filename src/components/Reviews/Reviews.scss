@@ -3,6 +3,8 @@
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     position: relative;
+    background-color: #fff;
+    z-index: -9;
     .left{
         padding-right: 50px;
         position: relative;
