@@ -15,9 +15,10 @@ const Navbar = () => {
         <StaticImage
           src="../../images/logo.png"
           loading="eager"
-          quality={95}
+          quality={100}
           formats={["auto", "webp", "avif"]}
           alt="palolem piercing logo"
+          className="img"
         />
       </div>
 
