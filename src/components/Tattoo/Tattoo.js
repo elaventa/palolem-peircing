@@ -16,7 +16,7 @@ const Tattoo = () => {
       />
       <h1 className="title">Ready for getting a tattoo? Let's get you started now!</h1>
       <p className="content">Clean and professional tattoos in a safe and sterile studio. Trust us to take care of you and your ink.</p>
-      <a target="_blank" href="https://pravinktatoos.com">
+      <a target="_blank" href="https://pravinktattoos.com/">
         <button className="btn">VISIT TATTOO WEBSITE</button>
       </a>
     </section>
