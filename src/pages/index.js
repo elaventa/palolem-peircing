@@ -13,6 +13,7 @@ import "../styles/global.scss"
 import { motion } from "framer-motion"
 import { StaticImage } from "gatsby-plugin-image"
 import Footer from "../components/Footer/Footer"
+import Tattoo from "../components/Tattoo/Tattoo"
 
 const Index = () => {
   return (
@@ -67,6 +68,7 @@ const Index = () => {
       <Book />
       <Reviews />
       <ReachUs />
+      <Tattoo />
       <Footer />
     </div>
   )
